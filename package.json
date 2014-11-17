@@ -1,0 +1,37 @@
+{
+  "name": "AllYourPhotosBaseImage",
+  "version": "0.0.1",
+  "description": "Base Image for All Your Photos applications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "AllYourPhotosApi": "git+https://github.com/irony/ayp-api",
+    "AllYourPhotosConnectors": "git+https://github.com/irony/ayp-connectors",
+    "AllYourPhotosJobs": "git+https://github.com/irony/ayp-jobs",
+    "AllYourPhotosModels": "git+https://github.com/irony/ayp-models",
+    "async": "^0.9.0",
+    "colors": "^0.6.2",
+    "connect": "^2.27.3",
+    "connect-redis": "^1.5.0",
+    "ejs": "^1.0.0",
+    "express": "^3.18.3",
+    "express-partials": "^0.1.1",
+    "jade": "^1.7.0",
+    "kue": "^0.7.9",
+    "lodash": "^2.4.1",
+    "moment": "^2.8.3",
+    "mongoose": "^3.9.5",
+    "nconf": "^0.6.9",
+    "nconf-etcd": "^0.1.1",
+    "redis": "^0.12.1",
+    "require-dir": "^0.1.0",
+    "socket.io": "^1.2.0",
+    "socket.io-client": "^1.2.0",
+    "socketio-jwt": "^2.3.5"
+  }
+}
