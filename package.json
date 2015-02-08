@@ -10,10 +10,6 @@
   "author": "",
   "license": "BSD",
   "dependencies": {
-    "AllYourPhotosApi": "git+https://github.com/irony/ayp-api",
-    "ayp-connectors": "git+https://github.com/irony/ayp-connectors",
-    "ayp-jobs": "git+https://github.com/irony/ayp-jobs",
-    "ayp-models": "git+https://github.com/irony/ayp-models",
     "async": "^0.9.0",
     "colors": "^0.6.2",
     "connect": "^2.27.3",
